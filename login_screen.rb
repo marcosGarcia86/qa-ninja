@@ -21,7 +21,7 @@ class LoginScreen
 
     def confirmacao_mensagem(texto)
         @msg = find_element(xpath: "//*[@text='#{texto}']").displayed?
-        expect(@msg).to be truelog
+        expect(@msg).to be true
     end
 
     def acessar_trocar_senha(link)
