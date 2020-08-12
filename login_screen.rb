@@ -1,5 +1,5 @@
 class LoginScreen
-# 921 585 450 97
+
     def initialize
         @campo_cpf              = "//android.widget.EditText[@index='0']"
         @btn_continuar          = "//*[@text='Continuar']"
